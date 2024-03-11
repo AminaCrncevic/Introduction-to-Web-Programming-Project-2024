@@ -1,0 +1,128 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+}
+
+.container {
+    max-width: 800px;
+    margin: 20px auto;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    margin-top: 100px;
+    
+}
+
+.order-summary, .checkout-form {
+    margin-bottom: 20px;
+}
+
+.cart-item {
+    display: inline-block;
+    margin-top: 10px;
+    text-align: left; /* Left-align individual cart items */
+    margin-bottom: 20px; /* Add vertical margin to create space between cart items */
+    padding: 10px; /* Add padding for additional separation */
+    border: 1px solid #ddd; /* Add a border for visual separation */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Add a shadow effect */
+
+}
+
+.cart-item img {
+    width: 80px;
+    height: auto;
+    margin-right: 20px;
+    margin: 0 auto;/*center horizontally*/
+}
+
+.cart-total {
+    margin-top: 20px;
+    text-align: right;
+}
+
+.checkout-form input[type="text"],
+.checkout-form input[type="email"]
+{
+    width: calc(100% - 20px); /* Adjust input and button width */
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    box-sizing: border-box;
+    background-color:#ccc;
+    text-transform: none; /* Remove uppercase transformation */
+
+}
+.checkout-form input[type="text"]:hover,
+.checkout-form input[type="email"]:hover,
+.checkout-form button:hover {
+    background-color: #e84393; /* Apply pink background on hover */
+}
+
+
+
+
+.proceed-btn {
+    background-color: palevioletred;
+    width:100%;
+    color: #fff;
+    border: none;
+    padding: 10px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    display: block; /* Change display to block to occupy full width */
+    font-size: 13px;
+}
+
+.proceed-btn:hover {
+    background-color: pink;
+}
+.checkout-form {
+    text-align: center; /* Center align the content */
+}
+
+
+
+
+
+.order-summary h2{
+    margin-top: 10px;
+}
+.cart-item .item-details p{
+    margin: 5px 0;
+    font-size: 16px;
+    color:#333;
+    
+}
+
+
+.item-details p {
+    margin: 5px 0;
+    font-size: 10px !important;
+    color: #333;
+}
+
+.item-details p:first-child {
+    font-weight: bold; /* Make the first paragraph bold */
+}
+
+.item-details p:last-child {
+    color: #888; /* Change color of last paragraph for additional visual separation */
+}
+.cart-total {
+    margin-top: 20px;
+    text-align: center;
+    font-size: 18px; 
+    color: #555; 
+    font-weight: bold; 
+}
+.container h1{
+    text-align: center;
+}
+.checkout-form h2{
+    margin-bottom: 10px;
+}

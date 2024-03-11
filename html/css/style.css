@@ -1,0 +1,599 @@
+
+:root{
+    --pink:#e84393;
+}
+
+*{
+    margin: 0;padding: 0;
+    box-sizing: border-box;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    outline: none; border: none;
+    text-decoration: none;
+    text-transform: capitalize;
+    transition: .2s linear;
+}
+
+html{
+    font-size: 62.5%;
+    scroll-behavior: smooth;
+    scroll-padding-top: 6rem;
+    overflow-x: hidden;
+
+}
+
+section{
+    padding: 2rem 9%;
+}
+.btn{
+    display: inline-block;
+    margin-top: 1rem;
+    border-radius: 5rem;
+    background: #333;
+    color: #fff;
+    padding: .9rem 3.5rem;
+    cursor: pointer;
+    font-size: 1.7rem;
+}
+.btn:hover{
+    background: var(--pink);
+
+}
+
+
+header{
+    position: fixed;
+    top: 0; left: 0; right: 0;
+    background: #fff;
+    padding: 2rem 9%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    z-index: 1000;
+    box-shadow: 0 .5rem 1rem rgba(0, 0, 0, .1);
+}
+
+header .logo {
+    font-size: 3rem;
+    color: #333;
+    font-weight: bolder;
+}
+
+header .logo span{
+    color:var(--pink);
+    
+}
+
+header .navbar a{
+    font-size: 2rem;
+    padding: 0 1.5rem;
+    color: #180e0e;
+
+}
+
+header .navbar a:hover{
+    color:var(--pink);
+}
+
+header .icons a{
+    font-size: 2.5rem;
+    color: #333;
+    margin-left: 1.5rem;
+}
+
+header .icons a:hover{
+    color:var(--pink);
+}
+
+header #toggler{
+    display: none;
+}
+
+header .fa-bars{
+    font-size: 3rem;
+    color: #333;
+    border-radius: .5rem;
+    padding: .5rem 1.5rem;
+    cursor: pointer;
+    border: .1rem solid rgba(0, 0, 0, .3);
+    display: none;
+}
+
+
+.home{
+    display: flex;
+    align-items: center;
+    min-height: 100vh;
+    background: url(https://s1.1zoom.me/big0/170/Tulips_Bouquets_Pink_background_617923_1280x853.jpg) no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.home .content{
+    max-width: 50rem;
+}
+.home .content h3{
+    font-size: 4rem;
+    color: #333;
+}
+.home .content span{
+    font-size: 2.5rem;
+    color:var(--pink);
+    padding: 1rem 0;
+    line-height: 1.5;  
+}
+
+.products .box-container{
+    display: flex;
+    flex-wrap: wrap;
+    gap:3rem;
+    justify-content: center;
+}
+
+section .products {
+    padding: 6rem 0; /* Adjust top and bottom padding for spacing */
+    background-color: #f9f9f9; /* Add a background color for contrast */
+    display: flex; /* Change the display to flex for better alignment */
+    flex-wrap: wrap; /* Enable wrapping for multiple rows */
+    justify-content: center; /* Center the items horizontally */
+    gap: 2rem; /* Add a gap between the boxes */
+} 
+.box {
+    width: calc(33.33% - 4rem); /* Adjust the width to fit three items in a row with spacing */
+    max-width: 300px; /* Set a maximum width for better responsiveness */
+    background-color: #fff; /* Add a background color for each box */
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1); 
+    border-radius: 10px; /* Add rounded corners */
+    overflow: hidden; /* Hide overflowing content */
+    margin-top: 2rem; /* Adjust the top margin for spacing */
+    margin-bottom: 2rem; /* Add bottom margin for spacing */
+    padding: 1.5rem; /* Add padding to the box content */
+    text-align: center; /* Center align the content */
+}
+.box img {
+    max-width: 100%; /* Ensure the image doesn't exceed the box width */
+    height: auto; 
+}
+
+.box .content .price {
+    font-size: 1.2rem; /* Adjust price font size */
+    color: var(--pink); /* pink variable for price color */
+}
+.box .icons a:hover {
+    color: var(--pink);
+}
+
+.box {
+    position: relative; /* Make the box a positioned container for absolute positioning */
+    width: calc(33.33% - 4rem); /* Adjust the width to fit three items in a row with spacing */
+    max-width: 300px; /* Set a maximum width for better responsiveness */
+    background-color: #fff; /* Add a background color for each box */
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1); 
+    border-radius: 10px; /* Add rounded corners */
+    overflow: hidden; /* Hide overflowing content */
+    margin-top: 2rem; /* Adjust the top margin for spacing */
+    margin-bottom: 2rem; /* Add bottom margin for spacing */
+    padding: 1.5rem; /* Add padding to the box content */
+    text-align: center; /* Center align the content */
+}
+
+
+/* Button styles */
+.cart-btn {
+    background-color: var(--pink);
+    color: white;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    border-radius: 5px;
+    transition: background-color 0.3s;
+}
+
+.cart-btn:hover {
+    background-color: pink;
+}
+/*button styles when you add to cart on products.html page*/
+
+
+
+
+/*products.html page*/
+.content h3{
+    margin-top: 1rem;
+}
+.content .price{
+    margin-top: 1rem;
+}
+/*products.html page*/
+
+
+
+
+.about .heading{
+    text-align: center;
+    font-size: 4rem;
+    color: #333;
+    padding: 1rem;
+    margin:2rem 0;
+    background: rgba(255, 51, 153, .05);
+
+}
+.about .heading span{
+    color: var(--pink);
+
+}
+.about .row{
+    display: flex;
+    align-items: center;
+    gap: 2rem;
+    flex-wrap: wrap;
+    padding: 2rem 0;
+    padding-bottom: 3rem;
+}
+.about .row .gif{
+    flex: 1 1 40rem;
+    position: relative;
+
+}
+.about .row .gif img{
+    width: 100%;
+    border: 1.5rem solid #fff;
+    border-radius: .5rem;
+    box-shadow: 0 .5rem 1rem rgba(0, 0, 0, .1);
+    height: 100%;
+    object-fit: cover;
+
+}
+.about .row .gif h3{
+    position: absolute;
+    top: 50%;transform: translateY(-50%);
+    font-size: 3rem;
+    background: #fff;
+    width:100%;
+    padding: 1rem 2rem;
+    text-align: center;
+    mix-blend-mode: screen;
+
+
+}
+
+.about .row .content{
+    flex:1 1 40rem;
+}
+
+.about .row .content h3{
+    font-size: 3rem;
+    color: #333;
+
+}
+.about .row .content p{
+    font-size: 1.5rem;
+    color: #999;
+    padding:.5rem 0;
+    padding-top: 1rem;
+    line-height:1.5 ;
+    text-transform: none;
+    text-align: justify;
+}
+
+
+
+.heading {
+    color: #333; 
+    margin-top: 8rem; 
+}
+
+
+
+  /*REVIEW SECTION CSS*/
+ 
+  .review .box-container{
+    display: flex;
+    flex-wrap: wrap;
+    gap:1.5rem;
+    align-items: center;
+  }
+  .review .box-container .box{
+    flex: 1 1 30rem;
+    box-shadow: 0 .5rem 1.5rem rgba(0, 0, 0, .1);
+    border-radius: .5rem;
+    padding: 3rem 2rem;
+    position: relative;
+    border:.1rem solid rgba(0, 0, 0, .1);
+  }
+  .review .box-container .box .fa-quote-right{
+    position:absolute;
+    bottom:3rem;right: 3rem;
+    font-size: 6rem;
+    color:#eee;
+  }
+  .review .box-container .box .stars i{
+    color:var(--pink);
+    font-size: 2rem;
+  }
+  .review .box-container .box p{
+    color:#999;
+    font-size: 1.5rem;
+    line-height: 1.5;
+    padding-top: 2rem;
+    text-transform: none;
+    text-align: justify;
+  }
+  .review .box-container .box .user{
+    display:flex;
+    align-items: center;
+    padding-top: 2rem;
+  }
+   
+  .review .box-container .box .user img{
+    height: 6rem;
+    width:6rem;
+    border-radius: 50%;
+    object-fit: cover;
+    margin-right: 1rem;
+  }
+  .review .box-container .box .user h3{
+    font-size: 2rem;
+    color:#333;
+    text-transform: none;
+  }
+  .review .box-container .box .user span{
+    font-size: 1.5rem;
+    color:#999;
+  }
+/*end*/
+
+
+/*CONTACT SECTION CSS*/
+.contact .row{
+    display: flex;
+    flex-wrap: wrap-reverse;
+    gap:1.5rem;
+    align-items: center;
+
+}
+.contact .row form{
+    flex:1 1 40rem;
+    padding: 2rem 2.5rem;
+    box-shadow: 0 .5rem 1.5rem rgba(0, 0, 0, .1);
+    border: .1rem solid rgba(0, 0, 0, .1) ;
+    background: #fff;
+    border-radius: .5rem;
+}
+.contact .row .image{
+    flex: 1 1 40rem;
+
+}
+.contact .row .image img{
+    width: 100%;
+}
+.contact .row form .box{
+    padding: 1rem;
+    font-size: 1.7rem;
+    color:#333;
+    text-transform: none;
+    border:.1rem solid rgba(0, 0, 0, .1);
+    border-radius: .5rem;
+    margin: .7rem 0;
+    width: 100%;
+}
+.contact .row form .box:focus{
+    border-color: var(--pink);
+}
+.contact .row form textarea{
+    height: 15rem;
+    resize: none;
+}
+
+
+/*FOOTER SECTION CSS*/
+.footer .box-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1.5rem;
+}
+.footer .box-container .box{
+    
+    flex:1 1 25rem;
+}
+.footer .box-container .box h3{
+    color:#333;
+    font-size: 2.5rem;
+    padding:1rem 0;
+
+
+}
+.footer .box-container .box a{
+    display: block;
+    color:#666;
+    font-size: 1.5rem;
+    padding:1rem 0;
+}
+.footer .box-container .box a:hover{
+    color:var(--pink);
+    text-decoration: underline;
+}
+.footer .credit{
+    text-align: center;
+    padding: 1.5rem;
+    margin-top: 1.5rem;
+    padding-top: 2.5rem;
+    font-size: 2rem;
+    color:#333;
+    border-top: .1rem solid rgba(0, 0, 0, .1);
+
+
+}
+.footer .credit span{
+    color:var(--pink);
+    
+}
+
+
+/*product search css*/
+.search-container {
+    text-align: center;
+    margin-top: 90px;
+}
+
+.search-container input[type=text] {
+    padding: 10px;
+    width: 300px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-sizing: border-box; /* padding is included in the width */
+}
+
+.search-container button {
+    padding: 10px 20px;
+    background-color: palevioletred;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.search-container button:hover {
+    background-color: pink;
+}
+.products h1{
+    margin-top: 30px;
+}
+
+
+/*product search css*/
+
+
+/* Styling for the filter container */
+.filter-container {
+    margin-bottom: 50px;
+    margin-top: 20px;
+}
+
+/* Styling for the filter label */
+.filter-label {
+    font-weight: bold;
+    margin-right: 10px;
+    font-size: 18px;
+    
+}
+
+
+/*-------------PRODUCTS BUTTON-----------------------*/
+
+.dropdown {
+    position: relative;
+    display: inline-block;
+    
+  }
+  
+  .dropbtn {
+    background-color: var(--pink);
+    color: white;
+    padding: 10px 20px;
+    font-size: 18px;
+    border: none;
+    cursor: pointer;
+  }
+  
+  .dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+    width: 250px;
+    border: solid rgba(0, 0, 0, .1);
+    padding: 10px;
+    height: auto; /* Set height to auto to adjust based on content */
+    overflow-y: auto; /* Enable vertical scrolling */
+  }
+  
+  .dropdown-content a {
+    color: black;
+    padding: 10px;
+    text-decoration: none;
+    display: block;
+    font-size: 8px;
+    border: solid rgba(238, 233, 233, 0.1);
+  }
+  
+  .dropdown-content a:hover {background-color: #f1f1f1;}
+  
+  .dropdown:hover .dropdown-content {
+    display: block;
+  }
+  
+  .dropdown:hover .dropbtn {
+    background-color: pink;
+  }
+
+/* media queries */
+@media (max-width:991px) {
+    html{
+        font-size: 55%;
+    }
+    header{
+        padding: 2rem;
+    }
+    section{
+        padding: 2rem;
+    }
+    .home{
+        background-position: left;
+    }
+}
+
+@media (max-width:768px){
+    header .fa-bars{
+        display: block;
+    }
+    header .navbar{
+        position: absolute;
+        top:100%; left:0;right:0;
+        background: #eee;
+        border-top: .1rem solid rgba(0, 0, 0, .1);
+        clip-path: polygon(0 0, 100% 0, 100% 0, 0 0);
+    }
+    header #toggler:checked ~ .navbar {
+        clip-path: polygon(0 0, 100% 0, 100% 100%, 0% 100%);
+    }
+    header .navbar a{
+        margin:1.5rem;
+        padding: 1.5rem;
+        background: #e84393;
+        border: .1rem solid rgba(0, 0, 0, .1);
+        display: block;
+    }
+    .home .content h3{
+        font-size: 5rem;
+    }
+    .home .content span{
+        font-size: 2.5rem;
+    }
+}
+
+@media (max-width:450px) {
+    html{
+        font-size: 50%;
+    }
+    .about .heading{
+        font-size: 3rem;
+    }
+}
+
+@media screen and (max-width: 790px) {
+    .dropdown-content {
+        overflow-y: auto; /* Enable vertical scrolling */
+        max-height: 200px;
+    }
+}
+
+@media screen and (max-width: 790px) {
+    .navbar {
+        overflow-x: scroll; /* Enable horizontal scrolling */
+        
+    }
+}

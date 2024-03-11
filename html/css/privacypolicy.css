@@ -1,0 +1,30 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f2f5;
+    margin: 0;
+}
+
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+header h1 {
+    margin-bottom: 20px;
+    color: #e83393;
+}
+
+.privacy-policy h2 {
+    margin-top: 30px;
+    color: #333;
+}
+
+.privacy-policy p {
+    margin-bottom: 20px;
+    line-height: 1.6;
+}
+
+.privacy-policy p:last-child {
+    margin-bottom: 0;
+}

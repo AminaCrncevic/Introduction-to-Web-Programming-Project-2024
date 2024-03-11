@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Product Detail Page</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+
+    <link rel="stylesheet" href="css/productdetailpage.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="icon" type="image/x-icon" href="images/favicon (1).ico">
+
+</head>
+<body>
+    <header>
+        <input type = "checkbox" name="" id="toggler">
+        <label for="toggler" class="fas fa-bars"></label>
+        
+        <a href = "home.html" class = "logo">Flower<span>Elegance</span></a>
+        
+        <nav class = "navbar">
+            <a href = "home.html">home</a>
+            <a href = "home.html#about">about</a>
+            <a href = "products.html">products</a>
+            <a href = "home.html#review">review</a>
+            <a href="home.html#contact">contact</a>
+            
+        </nav>
+        
+        <div class = "icons">
+            <a href = "shoppingcart.html" class = "fas fa-shopping-cart"></a>
+            <a href = "loginpage1.html" class = "fas fa-user"></a>
+            
+        </div>
+    </header>
+
+
+    <div class="container" id="product2">
+        <img class="product-img" src="https://fyf.tac-cdn.net/images/products/large/FYF-122.jpg?auto=webp&quality=80&width=690" alt="Product Image">
+        <h1 class="product-title">Blue Skies & Sunshine</h1>
+        <p class="product-price">33$</p>
+        <form action="/add-to-cart" method="post">
+            <div class="quantity">
+                <label for="quantity">Quantity:</label>
+                <input type="number" id="quantity" name="quantity" value="1" min="1">
+            </div>
+            <button type="submit" class="btn">Add to Cart</button>
+        </form>
+        <p class="product-description">A best selling bouquet for your friends and family. This arrangement is made of bright yellow roses, white lilies, blue delphinium and purple monte casino, all in a clear vase guaranteed to stand out. No matter the occasion, they will light up when receiving this beautiful bouquet.
+        </p>
+    </div>
+        <!-- FOOTER SECTION STARTS -->
+   <section class="footer">
+    <div class="box-container">
+        <div class="box">
+            <h3>Quick Links</h3>
+            <a href="home.html#home">Home</a>
+            <a href="home.html#about">About</a>
+            <a href="products.html">Products</a>
+            <a href="home.html#review">Review</a>
+        </div>
+        <div class="box">
+            <h3>Extra Links</h3>
+            <a href="#">My Account</a>
+            <a href="#">My Order</a>
+        </div> 
+        <div class = "box">
+            <h3>Locations</h3>
+            <a href="#">Bosnia and Herzegovina</a>
+            <a href="#">Germany</a>
+            <a href="#">USA</a>
+
+        </div>
+        <div class="box">
+            <h3>Contact Info</h3>
+            <a href="#">+38761079872</a>
+            <a href="#" style="text-transform: none;">amina.crncevic@stu.ibu.edu.ba</a>
+        </div>
+
+
+
+    </div>
+    <div class="credit">Created By <span>Amina Crncevic</span> | all rights reserved </div>
+
+</section> 
+
+    
+    
+</body>
+</html>
