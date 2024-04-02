@@ -1,0 +1,57 @@
+[
+    {
+       "id": 1,
+       "name": "Rose & Lily Celebration",
+       "price": 45,
+       "image": "https://fyf.tac-cdn.net/images/products/small/FYF-116.jpg"
+    },
+    {
+       "id": 2,
+       "name": "Blue Skies & Sunshine",
+       "price": 33,
+       "image": "https://fyf.tac-cdn.net/images/products/small/FYF-122.jpg"
+    },
+    {
+    "id": 3,
+    "name": "Southern Peach Bouquet",
+    "price": 46,
+    "image":"https://fyf.tac-cdn.net/images/products/small/TEV55-6.jpg?auto=webp&quality=80&width=295"
+      
+    },
+
+    {
+    "id": 4,
+    "name": "How Sweet It Is",
+    "price": 46,
+    "image":"https://fyf.tac-cdn.net/images/products/small/T46-1.jpg?auto=webp&quality=80&width=295"
+   },
+   {
+      "id": 5,
+      "name": "Fields of Gold Mason Jar",
+      "price": 40,
+      "image":"https://fyf.tac-cdn.net/images/products/small/FYF-131.jpg?auto=webp&quality=80&width=295"
+     },
+     {
+      "id": 6,
+      "name": "Be Happy® Bouquet",
+      "price": 40,
+      "image":"https://fyf.tac-cdn.net/images/products/small/F-383.jpg?auto=webp&quality=80&width=354"
+     },
+     {
+      "id": 7,
+      "name": "Luxury Dozen Preserved Red Roses",
+      "price": 40,
+      "image":"https://fyf.tac-cdn.net/images/products/small/F-739.jpg?auto=webp&quality=80&width=354"
+     },
+     {
+      "id": 8,
+      "name": "Be Bold on Your Birthday",
+      "price": 30,
+      "image":"https://fyf.tac-cdn.net/images/products/small/TBC03-1-2.jpg?auto=webp&quality=80&width=354"
+     }
+   
+     
+     
+
+ ]
+ 

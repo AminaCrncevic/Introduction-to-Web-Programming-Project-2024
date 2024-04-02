@@ -1,4 +1,4 @@
-body {
+/*body {
     font-family: Arial, sans-serif;
     background-color: #f0f2f5;
     display: flex;
@@ -6,25 +6,36 @@ body {
     align-items: center;
     height: 100vh;
     margin: 0;
-}
+}*/
 
-.container {
+.container1 {
     background-color: #fff;
     border-radius: 8px;
     box-shadow: 0 2px 4px rgba(0,0,0,0.1);
-    padding: 40px;
+    padding: 40px; 
     text-align: center;
+    font-family: Arial, sans-serif;
+    background-color: #f0f2f5;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    
 }
 
 .login-box {
-    max-width: 300px;
+    max-width: 380px;
+    max-height: 450px;
     margin: auto;
+    background-color: white;
+    padding: 20px;
 }
 
-img {
+/*img {
     width: 150px;
     margin-bottom: 20px;
-}
+}*/
 
 input[type="text"],
 input[type="password"],
@@ -35,6 +46,7 @@ button {
     border: 1px solid #ddd;
     border-radius: 4px;
     box-sizing: border-box;
+    text-transform: none;
 }
 
 button {
@@ -51,6 +63,7 @@ button:hover {
 a {
     text-decoration: none;
     color:#e84393;
+    font-size: 14px;
 }
 
 a:hover {
@@ -71,4 +84,8 @@ p {
 }
 .login-box h2 span{
     color:#e84393;
+}
+.login-box h2 {
+    font-size: 25px;
+    margin-bottom: 10px;
 }

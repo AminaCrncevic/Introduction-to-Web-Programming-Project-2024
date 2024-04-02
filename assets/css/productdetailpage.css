@@ -4,13 +4,14 @@ body {
     padding: 0;
     background-color: #f4f4f4;
 }
-.container {
+.containerpr1 {
     max-width: 800px;
-    margin: 20px auto;
+    margin: 100px auto;
     background-color: #fff;
     padding: 20px;
     border-radius: 8px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    
 }
 .product-img {
     width: 100%;
@@ -33,7 +34,7 @@ body {
     text-align: justify;
     font-size: 13px;
 }
-.btn {
+ .btnpr1 {
     display: inline-block;
     padding: 10px 20px;
     background-color: pink;
@@ -41,8 +42,9 @@ body {
     text-decoration: none;
     border-radius: 5px;
     transition: background-color 0.3s;
+   
 }
-.btn:hover {
+.btnpr1:hover {
     background-color:palevioletred;
 }
 .quantity {

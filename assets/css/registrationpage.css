@@ -1,4 +1,4 @@
-body {
+/*body {
     font-family: Arial, sans-serif;
     background-color: #f0f2f5;
     display: flex;
@@ -6,25 +6,43 @@ body {
     align-items: center;
     height: 100vh;
     margin: 0;
-}
+}*/
 
-.container {
+.container_reg {
     background-color: #fff;
     border-radius: 8px;
     box-shadow: 0 2px 4px rgba(0,0,0,0.1);
     padding: 40px;
     text-align: center;
+    background-color: #f0f2f5;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    
+    
+   
 }
 
 .registration-box {
     max-width: 300px;
     margin: auto;
+    max-height: 450px;
+    background-color: white;
+    max-width: 380px;
+    max-height: 500px;
+    margin: auto;
+    background-color: white;
+    padding: 20px;
+   
+    
 }
 
-img {
+/*img {
     width: 150px;
     margin-bottom: 20px;
-}
+}*/
 
 input[type="text"],
 input[type="password"],
@@ -42,6 +60,8 @@ button {
     color: #fff;
     border: none;
     cursor: pointer;
+    margin-bottom: 13px;
+    margin-top: 20px;
 }
 
 button:hover {
@@ -67,5 +87,10 @@ p {
     color: #606770;
 }
 .registration-box h2 span{
-    color:#e84393
+    color:#e84393;
+
+}
+.registration-box h2{
+    margin-bottom: 10px;
+    font-size: 20px;
 }

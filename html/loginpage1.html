@@ -1,27 +1,34 @@
-<!DOCTYPE html>
+<!--<!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>FlowerElegance Login</title>
-    <link rel="stylesheet" href="css/loginpage1.css">
+    <link rel="stylesheet" href="../assets/css/loginpage1.css">
     
-</head>
-<body>
-    <div class="container">
+</head>-->
+<body> 
+    <div class="container1">
         <div class="login-box">
             
             
             <h2>Flower<span>Elegance</span></h2> 
-            <form action="action_page.php" method="post">
+            <form id="login-form" method="post">
                 <input type="text" placeholder="Email" name="email" required>
                 <input type="password" placeholder="Password" name="psw" required>
                 <button type="submit">Log In</button>
             </form>
-            <a href="#">Forgot Password?</a>
+            
             <hr>
-            <p>Don't have an account? <a href="registrationpage1.html">Sign Up</a></p>
+            <p>Don't have an account? <a href="#registrationpage1">Sign Up</a></p>
         </div>
     </div>
+    
 </body>
-</html>
+<script src="/assets/js/jquery.min.js"></script>
+<!--<script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>-->
+<script src="/assets/js/jquery.validate.min.js">
+</script>
+<script src="/js/login_validation.js"></script>
+<!--
+</html> --->

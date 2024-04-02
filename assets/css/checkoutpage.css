@@ -1,18 +1,20 @@
-body {
+/*body {
     font-family: Arial, sans-serif;
     margin: 0;
     padding: 0;
     background-color: #f4f4f4;
-}
+}*/
 
-.container {
+.container3 {
+    font-family: Arial, sans-serif;
     max-width: 800px;
     margin: 20px auto;
-    background-color: #fff;
+    background-color: white;
     padding: 20px;
     border-radius: 8px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
     margin-top: 100px;
+    
     
 }
 
@@ -38,10 +40,10 @@ body {
     margin: 0 auto;/*center horizontally*/
 }
 
-.cart-total {
+/*.cart-total {
     margin-top: 20px;
     text-align: right;
-}
+}*/
 
 .checkout-form input[type="text"],
 .checkout-form input[type="email"]
@@ -52,13 +54,13 @@ body {
     border: 1px solid #ddd;
     border-radius: 5px;
     box-sizing: border-box;
-    background-color:#ccc;
+    background-color:#fff;
     text-transform: none; /* Remove uppercase transformation */
 
 }
 .checkout-form input[type="text"]:hover,
-.checkout-form input[type="email"]:hover,
-.checkout-form button:hover {
+.checkout-form input[type="email"]:hover
+/*.checkout-form button:hover*/ {
     background-color: #e84393; /* Apply pink background on hover */
 }
 
@@ -83,8 +85,8 @@ body {
 }
 .checkout-form {
     text-align: center; /* Center align the content */
-}
 
+}
 
 
 
